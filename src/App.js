@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 import './App.css';
-import { IoMenuOutline, IoCloseOutline, IoLogoWhatsapp } from "react-icons/io5";
+import { IoMenuOutline, IoCloseOutline,
+IoLogoWhatsapp } from "react-icons/io5";
+import { MdOutlineLocalPolice } from "react-icons/md";
+import { GiPapers } from "react-icons/gi";
 import Menu from"./components/menu/menu.js";
 import Home from"./components/page/home/Home";
 function App() {
@@ -23,6 +26,14 @@ function App() {
       </div>
       
       
+      <footer>
+         <div className="foter">
+            <a href="#bahan"><GiPapers /><h5>bahan</h5></a>
+            <a href="#bahan"><GiPapers /><h5>bahan</h5></a>
+            <a href="#bahan"><MdOutlineLocalPolice /><h5>Embose</h5></a>
+            <a href="#bahan"><GiPapers /><h5>bahan</h5></a>
+         </div>
+      </footer>
     </div>
   );
 }

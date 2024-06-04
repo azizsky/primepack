@@ -1,9 +1,12 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+  height: 100vh;
+  overflow: hidden;
   }
   header{
      height: 8%;
+     position: fixed;
   }
   .homepage {
      overflow-x: hidden;
@@ -17,3 +20,29 @@
      top: 8%;
      z-index: 1000;
   }
+  footer{
+     background: yellow;
+     margin-top: 85vh;
+     position: fixed;
+     width: 100vw;
+     height: 8vh;
+     z-index: 100;
+     align-items: center;
+  }
+  .foter{
+     margin-top: 2% ;
+     
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+  }
+ a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+ }
+ a h5 {
+    font-size: 10px;
+ }
