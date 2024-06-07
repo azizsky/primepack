@@ -4,12 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
 
-// Change unregister() to register() below
+// Ganti ini:
+// serviceWorker.unregister();
+// Dengan ini:
 serviceWorker.register();

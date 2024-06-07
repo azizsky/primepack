@@ -1,0 +1,21 @@
+.container {
+   top: 50px;
+   position: relative;
+   margin: auto;
+   width: 90vw;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   border: 1px solid black;
+}
+.container div {
+   position: relative;
+   background: lightgray;
+   height: 20rem;
+   width:  10rem;
+   font-size: 20px;
+   flex-basis: calc(50% - 20px);
+   border: 1px solid black;
+   margin: 5px;
+   padding: 5px;
+}

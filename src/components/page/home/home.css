@@ -1,2 +1,8 @@
-h1 {
+.homepage {
+   text-align: center;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   position: absolute;
+   flex-direction: column;
 }
