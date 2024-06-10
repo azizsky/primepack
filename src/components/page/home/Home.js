@@ -1,12 +1,12 @@
 import React from 'react';
 import "./home.css";
-import Catalog from "../../catalog/catalog";
-import SlideImg from "../../slide/slide";
+import Categori from "../../catalog/catalog";
+import Text1 from"../../texs/texthome1";
 const Home = () => {
   return (
-    <div className="homepage">
-      <SlideImg />
-      <Catalog />
+    <div className="homepage ">
+      <Text1 className="text1" />
+      <Categori className="categori" />
     </div>
   );
 };

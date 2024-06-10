@@ -7,7 +7,7 @@ import { MdOutlineLocalPolice } from "react-icons/md";
 import { GiPapers } from "react-icons/gi";
 import Menu from"./components/menu/menu.js";
 import Home from"./components/page/home/Home";
-import DusMakanan from"./components/page/dusmakanan/dusmakanan.js";
+import DusMakanan from"./components/page/dusmakanan/dusmakanan";
 
 function App() {
    const [isOpen, setIsOpen] = useState(false);
@@ -19,14 +19,14 @@ function App() {
    
     <div className="App">
       <header className=" fixed flex bg-black text-white justify-between items-center p-1 flex">
-       <img src="/image/logo/logo.jpg" className="h-12 w-12"  />
-       <button onClick={tombolMenu} className="text-4xl cursor-pointer relative right-1">
+       <img src="/image/logo/logo.jpg" className="logo"  />
+       <button onClick={tombolMenu} className="btnside">
       {isOpen ? <IoCloseOutline /> : <IoMenuOutline />}</button>
       </header>
       <Menu isOpen={isOpen} />
       <Router>
          <Routes>
-            <Route path="/" element={<div className="homepage"><Home /></div>} />
+            <Route path="/" element={<div className="home"><Home /></div>} />
             <Route path="/DusMakanan" element={<DusMakanan />}/>
          </Routes>
       </Router>

@@ -1,0 +1,74 @@
+.containertext {
+   position: relative;
+   width: 100vw;
+   top: 4rem;
+   font-size: 25px;
+   display: flex;
+}
+.isi1 {
+   width: 90vw;
+   position: relative;
+   margin: auto;
+}
+.isi1 h1 {
+   font-weight: bold;
+   font-size: 38px;
+}
+@media (max-width: 769px) {
+   .containertext {
+      min-width: 100vw;
+   }
+   .isi1 {
+      min-width: 97%;
+      font-size: 20px;
+   }
+}
+@media (max-width: 1025px) {
+   .containertext {
+      min-width: 100vw;
+   }
+   .isi1 {
+      max-width: 80%;
+      font-size: 20px;
+   }
+}
+@media (min-width: 1280px) {
+   .containertext {
+      width: 45vw;
+      font-size: 27px;
+   }
+   .isi1 {
+      position: relative;
+      top: -1rem;
+      font-size: 27px;
+      font-size: 45px;
+      font-weight: 500;
+      max-width: 88%;
+   }
+   .isi1 h1 {
+      position: relative;
+      font-weight: 900;
+      font-size: 60px;
+   }
+   
+}
+@media (min-width: 1679px) {
+   .containertext {
+      width: 40vw;
+      font-size: 30px;
+   }
+   .isi1 {
+      position: relative;
+      top: -4rem;
+      font-size: 30px;
+      font-size: 45px;
+      font-weight: 500;
+      max-width: 88%;
+   }
+   .isi1 h1 {
+      position: relative;
+      font-weight: 900;
+      font-size: 70px;
+   }
+   
+}
