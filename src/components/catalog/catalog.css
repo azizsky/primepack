@@ -1,9 +1,10 @@
 .container {
-   top: 7%;
+   margin: auto;
+   top: 4rem;
    position: relative;
    align-items: center;
    justify-content: space-around;
-   width: 100vw;
+   min-width: 100vw;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -12,97 +13,22 @@
 .container div {
    padding: 3px;
    background: #1c1e21;
-   width: 180px;
+   width: 140px;
    height: auto;
    margin: 5px;
    font-size: 15px;
    box-shadow: 0 0 5px 2px #4c4c4c;
    cursor: pointer;
 }
-@media (max-width: 769px) {
-   .container {
-      min-width: 100vw;
-   }
-   .container div {
-      max-width: 190px;
-      font-size: 20px;
-   }
+.container div:hover {
+   background: #2c3643;
+   transform: scale(-1px -1px);
+   border-radius: 4px;
+   box-shadow: 0 0 5px 2px #181e38;
+   padding: 4px;
 }
-@media (max-width: 1025px) {
+@media (min-width: 768px) {
    .container {
-      min-width: 100vw;
-      top: 4rem;
-   }
-   .container div {
-      max-width: 300px;
-      font-size: 20px;
-   }
-}
-@media (min-width: 1280px) {
-   .container {
-      top: 3rem;
-      min-width: 50vw;
-      font-size: 27px;
-   }
-   .container div {
-      font-size: 27px;
-      min-width: 200px;
-   }
-}
-@media (min-width: 1680px) {
-   .container {
-      min-width: 59vw;
-      font-size: 30px;
-      padding: 8px;
-   }
-   .container div {
-      font-size: 30px;
-      min-width: 280px;
-      box-shadow: 0 0 20px 10px #4c4c4c;
-   }
-}
-@media (min-width: 2560px) {
-   .container {
-      top: 5%;
-      max-width: 65vw;
-      font-size: 30px;
-      padding: 8px;
-      gap: 8px;
-   }
-   .container div {
-      font-size: 45px;
-      min-width: 350px;
-      padding: 10px;
-      box-shadow: 0 0 30px 10px #4c4c4c;
-   }
-}
-@media (min-width: 3839px) {
-   .container {
-      top: 4%;
-      max-width: 65vw;
-      font-size: 30px;
-      padding: 8px;
-      gap: 8px;
-   }
-   .container div {
-      font-size: 45px;
-      min-width: 480px;
-      padding: 10px;
-      box-shadow: 0 0 30px 10px #4c4c4c;
-   }
-}
-@media (min-width: 5119px) {
-   .container {
-      top: 4%;
-      max-width: 65vw;
-      font-size: 30px;
-      padding: 8px;
-      gap: 8px;
-   }
-   .container div {
-      font-size: 45px;
-      min-width: 500px;
-      padding: 10px;
-      box-shadow: 0 0 30px 10px #4c4c4c;
+      width: 80%;
    }
 }
