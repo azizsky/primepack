@@ -1,23 +1,30 @@
 import React from 'react';
+import {Link} from"react-router-dom"
 import './Menu.css'; // Buat file CSS untuk styling
-import { IoLogoWhatsapp, IoLogoInstagram, IoBagHandleOutline, IoMapOutline, IoInformationCircleOutline, IoHomeOutline } from "react-icons/io5";
+import { IoLogoWhatsapp, IoLogoInstagram, IoBagHandleOutline, IoInformationCircleOutline, IoHomeOutline } from "react-icons/io5";
 import { MdOutlineMailOutline, MdOutlineLabel } from "react-icons/md";
 import { BsInboxes, BsEnvelopePaper } from "react-icons/bs";
-import { AiOutlineFacebook } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineAlibaba } from "react-icons/ai";
+import { TbBrandShopee } from "react-icons/tb";
+
+
 const Menu = ({ isOpen }) => {
    
    
    
     return (
         <div className={`menu-content ${isOpen ? 'open' : 'close'}`}>
-            <div className="Product"><h1>Produk Kami</h1>
-               <button><BsInboxes /><h4>Packaging</h4></button>
-               <button><IoBagHandleOutline /><h4>Paperbag</h4></button>
-               <button><MdOutlineLabel /><h4>Hantag, Label</h4></button>
-               <button><IoMapOutline /><h4>Undangan</h4></button>
-               <button><BsEnvelopePaper /><h4>Amplop</h4></button>
+            <div className="Product">
+            <Link to="/"><button>
+               <IoHomeOutline /><h4>Beranda</h4></button>
+            </Link>
+            <h1>Toko ecommerce Kami</h1>
+               <a href="https://id.shp.ee/6qB9Gqh" target="_blank"rel="noopener noreferrer"><button><TbBrandShopee /><h4>Shopee</h4></button></a>
+              <a href="https://tokopedia.link/Y6qFbQj7mKb" target="_blank"rel="noopener noreferrer"> <button><IoBagHandleOutline /><h4>TokoPedia</h4></button></a>
+               <button><MdOutlineLabel /><h4>Lazada</h4></button>
+               <button><AiOutlineAlibaba /><h4>alibaba</h4></button>
             </div>
-            <div className="Media"><h1>Media Kami</h1>
+            <div className="Media"><h1>Kontak/Media Kami</h1>
                <a href="https://wa.me/6281217780249"target="_blank"rel="noopener noreferrer"><button><IoLogoWhatsapp />
                <h4>WhatsApp/Tlpn</h4></button></a>
                <a href="https://www.instagram.com/aszprinting?igsh
@@ -28,10 +35,11 @@ const Menu = ({ isOpen }) => {
                <MdOutlineMailOutline /><h4>Email</h4></button></a>
             </div>
          <div className="Info"><h1>Tentang kami</h1>
-               <button><IoInformationCircleOutline /><h4>Informasi</h4></button>
-               
-            </div>
-        </div>
+            <Link to="/TentangKami"><button>
+               <IoInformationCircleOutline /><h4>Informasi Kami</h4></button>
+            </Link>
+         </div>
+      </div>
     );
 };
 

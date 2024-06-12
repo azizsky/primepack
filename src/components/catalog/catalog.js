@@ -10,7 +10,7 @@ const Categori = () => {
    return (
       
       <div className="container w-full select-none">
-      <h1 className=" p-2 m-2 font-bold items-center w-full select-none bg-cyan-950 sm:h-7 md:h-10 xl:h-16">Pilih Categori Produk</h1>
+      <h1 className=" p-2 m-2 font-bold items-center w-full select-none bg-cyan-950">Pilih Categori Produk</h1>
          <Link to="/DusMakanan">
             <div className="Dusmakanan">
             <img src="/image/content/amplop.jpg"/>
@@ -32,7 +32,7 @@ const Categori = () => {
          <Link to="/DusMakanan">
             <div className="Dusmakanan">
             <img src="/image/content/amplop.jpg"/>
-            Hantag
+            Hantag/Label
             </div>
          </Link>  
          <Link to="/DusMakanan">
@@ -46,25 +46,7 @@ const Categori = () => {
             <img src="/image/content/amplop.jpg"/>
             Amplop
             </div>
-         </Link>  
-         <Link to="/DusMakanan">
-            <div className="Dusmakanan">
-            <img src="/image/content/amplop.jpg"/>
-            brosur & Map
-            </div>
-         </Link>  
-         <Link to="/DusMakanan">
-            <div className="Dusmakanan">
-            <img src="/image/content/amplop.jpg"/>
-             Undangan
-            </div>
-         </Link>  
-         <Link to="/DusMakanan">
-            <div className="Dusmakanan">
-            <img src="/image/content/amplop.jpg"/>
-             Nota & Quetansi
-            </div>
-         </Link>
+         </Link> 
          <Link to="/DusMakanan">
             <div className="Dusmakanan">
             <img src="/image/content/amplop.jpg"/>
@@ -75,6 +57,12 @@ const Categori = () => {
             <div className="Dusmakanan">
             <img src="/image/content/amplop.jpg"/>
              Paket Fried Chiken
+            </div>
+         </Link>  
+         <Link to="#">
+            <div className="Dusmakanan">
+            <img src="/image/content/coming.jpeg"/>
+             kami akan segera menambah produk
             </div>
          </Link>  
       </div>

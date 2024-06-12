@@ -1,0 +1,45 @@
+.containertext2 {
+   position: relative;
+   width: 100vw;
+   top: 8rem;
+   font-size: 25px;
+   display: flex;
+   flex-direction: column;
+}
+.isi2 div {
+   margin: 9px;
+   padding: 8px;
+   text-align: center;
+}
+
+.isi2 {
+   width: 98vw;
+   position: relative;
+   margin: auto;
+   font-size: 20px;
+   line-height: 25px;
+   font-weight: 500;
+   
+}
+.isi2 h1 {
+   text-align: start;
+   line-height: 30px;
+   font-weight: bold;
+   font-size: 24px;
+}
+.concel {
+   opacity: 0;
+}
+
+@media ( min-width: 767px) {
+   .isi2 div{ 
+      max-width: 45vw; 
+   }
+   .isi2{ 
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+   }
+}
+
+

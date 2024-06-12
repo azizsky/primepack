@@ -17,18 +17,23 @@
    height: auto;
    margin: 5px;
    font-size: 15px;
-   box-shadow: 0 0 5px 2px #4c4c4c;
+   box-shadow: 0 0 5px 2px #1c1e21;
    cursor: pointer;
 }
 .container div:hover {
    background: #2c3643;
    transform: scale(-1px -1px);
    border-radius: 4px;
-   box-shadow: 0 0 5px 2px #181e38;
+   box-shadow: 0 0 5px 2px #1c1e21;
    padding: 4px;
 }
 @media (min-width: 768px) {
    .container {
       width: 80%;
+   }
+}
+@media (min-width: 1280px) {
+   .container div {
+      width: 230px;
    }
 }

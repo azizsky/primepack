@@ -3,9 +3,9 @@
     width: 200px;
     height: 480px;
     position: fixed;
-    top: 55px;
+    top: 45px;
     right: 1px;
-    background-color: #121a24;
+    background-color: #1c1e21;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transform: translate(-20px);
@@ -41,7 +41,7 @@
    position: relative;
    cursor: pointer;
    display: flex;
-   font-size: 30px;
+   font-size: 28px;
    align-items: center;
    padding: 3px;
    border-bottom: 0.5px solid white;
@@ -54,7 +54,7 @@
 .Media h4, .Product h4, .Info h4{
    position: relative;
    display: flex;
-   font-size: 20px;
+   font-size: 18px;
    position: relative;
    margin-left: 10px;
    max-width: 80%;
