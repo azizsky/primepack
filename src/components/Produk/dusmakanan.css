@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+.dusmakanan h2{
+   color: black;
+   font-size: 18px;
+   font-weight: 500;
+   width: 90%;
+   text-shadow: 0px 0px 8px rgba(174,174,174,0.97);
+}
+.dusmakanan {
+   margin: auto;
+   top: 4rem;
+   position: relative;
+   align-items: center;
+   justify-content: space-around;
+   min-width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   color: white;
+}
+.dusmakanan .image-container img, p {
+   transition: all 0.3s ease;
+}
+.dusmakanan .image-container {
+   position: relative;
+   top: 3rem;
+   padding: 3px;
+   background: #1c1e21;
+   width: 140px;
+   height: auto;
+   margin: 5px;
+   font-size: 15px;
+   box-shadow: 0px 1px 8px 1px black;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.dusmakanan .image-container:hover p {
+   transform: scale(0.90) rotate(-2deg);
+}
+.dusmakanan .image-container:hover img {
+   transform: scale(0.95) rotate(-2deg);
+}
+.dusmakanan .image-container:hover {
+   background: #2c3643;
+   transform: scale(0.95) rotate(2deg);
+   border-radius: 4px;
+   box-shadow: 0 0 5px 2px #546279;
+   padding: 4px;
+}
+
+
+.image-container p {
+   color: white;
+   font-family: "Roboto Mono" ,Monospace;
+}
+.image-container {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  transform: scale(0.5);
+  opacity: 0;
+}
+.dusmakanan div img{
+   transition: all 0.4s ease;
+}
+.dusmakanan div img:hover {
+   transform: scale(0.93) rotate(2deg);
+}
+@media (min-width: 768px) {
+   .dusmakanan {
+      width: 80%;
+   }
+}
+@media (min-width: 1280px) {
+   .dusmakanan h2 {
+      font-size: 23px;
+   }
+   .dusmakanan .image-container p {
+      font-size: 20px;
+   }
+   .dusmakanan .image-container {
+      width: 230px;
+   }
+}

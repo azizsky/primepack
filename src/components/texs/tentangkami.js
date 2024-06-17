@@ -1,5 +1,4 @@
 import React from"react";
-import {Link } from"react-router-dom";
 import"./tentangkami.css"
 
 const  Tentang = ()=> {
@@ -30,7 +29,7 @@ Kami menawarkan berbagai produk kemasan seperti dus kemasan makanan, kosmetik, p
     </div>
     <div>
 <h2>Tim dan Kepemimpinan:</h2><h3>
-Tim kami yang berpengalaman dan berkomitmen untuk memberikan layanan terbaik. Dipimpin oleh Asep Saepul Aziz, yang memiliki pengalaman luas di industri kemasan dan percetakan, kami selalu siap menghadapi tantangan dan peluang baru.</h3>
+Tim kami yang berpengalaman dan berkomitmen untuk memberikan layanan terbaik. kami selalu siap menghadapi tantangan dan peluang baru.</h3>
       </div>
    <div>
 <h2>Komitmen Terhadap Pelanggan:</h2><h3>

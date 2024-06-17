@@ -1,31 +1,45 @@
+h1, h2, h3{
+   text-shadow: 0px 0px 8px rgba(212,212,212,0.97);
+   user-select: none;
+}
 .containertext2 {
    position: relative;
    width: 100vw;
    top: 8rem;
-   font-size: 25px;
+   font-size: 20px;
    display: flex;
    flex-direction: column;
+}
+.isi2 div:hover { 
+   box-shadow: 0px 0px 49px -25px rgb(211,233,255);
+   border-bottom: 1px solid black ;
 }
 .isi2 div {
    margin: 9px;
    padding: 8px;
    text-align: center;
+   box-shadow: 0px 0px 49px -25px rgb(235,235,235);
 }
 
 .isi2 {
    width: 98vw;
    position: relative;
    margin: auto;
-   font-size: 20px;
+   font-size: 18px;
    line-height: 25px;
    font-weight: 500;
    
 }
-.isi2 h1 {
+
+.image-container.zoom-in {
+  transform: scale(1);
+  opacity: 1;
+}
+.isi2 div h1 {
    text-align: start;
    line-height: 30px;
    font-weight: bold;
-   font-size: 24px;
+   font-size: 20px;
 }
 .concel {
    opacity: 0;
@@ -42,4 +56,45 @@
    }
 }
 
+@media ( min-width: 1024px) {
+   .isi2 div h1{ 
+      font-size: 23px;
+   }
+   .isi2 div{ 
+      max-width: 45vw; 
+      font-size: 23px;
+   }
+   .isi2 h1 { 
+      font-size: 24px;
+   }
+   .isi2{ 
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+   }
+}
+
+@media ( min-width: 1280px) {
+   .isi2 h1{ 
+   font-size: 30px;
+   line-height: 35px;
+   }
+   .isi2 div{ 
+   font-size: 28px;
+   line-height: 32px;
+   }
+   .isi2 div h1 {
+   position: relative;
+   top: -10px;
+   text-align: start;
+   line-height: 30px;
+   font-weight: bold;
+   font-size: 30px;
+}
+   .isi2{ 
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+   }
+}
 

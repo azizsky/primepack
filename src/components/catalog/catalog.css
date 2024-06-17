@@ -10,21 +10,31 @@
    flex-wrap: wrap;
    color: white;
 }
-.container div {
+.container .Dusmakanan img, p {
+   transition: all 0.3s ease;
+}
+.container .Dusmakanan {
    padding: 3px;
    background: #1c1e21;
    width: 140px;
    height: auto;
    margin: 5px;
    font-size: 15px;
-   box-shadow: 0 0 5px 2px #1c1e21;
+   box-shadow: 0px 1px 8px 1px black;
    cursor: pointer;
+   transition: all 0.3s ease;
 }
-.container div:hover {
+.container .Dusmakanan:hover p {
+   transform: scale(0.90) rotate(-2deg);
+}
+.container .Dusmakanan:hover img {
+   transform: scale(0.95) rotate(-2deg);
+}
+.container .Dusmakanan:hover {
    background: #2c3643;
-   transform: scale(-1px -1px);
+   transform: scale(0.95) rotate(2deg);
    border-radius: 4px;
-   box-shadow: 0 0 5px 2px #1c1e21;
+   box-shadow: 0 0 5px 2px #546279;
    padding: 4px;
 }
 @media (min-width: 768px) {
@@ -33,7 +43,8 @@
    }
 }
 @media (min-width: 1280px) {
-   .container div {
-      width: 230px;
+   .container .Dusmakanan {
+      width: 220px;
+      font-size: 22px;
    }
 }

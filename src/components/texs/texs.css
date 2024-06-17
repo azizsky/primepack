@@ -7,6 +7,7 @@
    flex-direction: column;
 }
 .isi1 {
+   color: black;
    width: 90vw;
    position: relative;
    margin: auto;
@@ -14,11 +15,32 @@
    line-height: 23px;
    
 }
-.isi1 h1 {
+.isi1 .team {
    line-height: 30px;
    font-weight: bold;
    font-size: 28px;
 }
 
-
+@media (min-width: 1024px) {
+   .isi1 h1 {
+   line-height: 30px;
+   font-weight: bold;
+   font-size: 32px;
+   }
+   .isi1 {
+   font-size: 22px;
+}
+}
+@media (min-width: 1280px) {
+   .isi1 h1 {
+   line-height: 30px;
+   font-weight: bold;
+   font-size: 38px;
+   }
+   .isi1 {
+   font-size: 29px;
+   line-height: 32px;
+   width: 70vw;
+}
+}
 

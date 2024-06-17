@@ -2,9 +2,8 @@ import React from 'react';
 import {Link} from"react-router-dom"
 import './Menu.css'; // Buat file CSS untuk styling
 import { IoLogoWhatsapp, IoLogoInstagram, IoBagHandleOutline, IoInformationCircleOutline, IoHomeOutline } from "react-icons/io5";
-import { MdOutlineMailOutline, MdOutlineLabel } from "react-icons/md";
-import { BsInboxes, BsEnvelopePaper } from "react-icons/bs";
-import { AiOutlineFacebook, AiOutlineAlibaba } from "react-icons/ai";
+import { MdOutlineMailOutline, } from "react-icons/md";
+import { AiOutlineFacebook, } from "react-icons/ai";
 import { TbBrandShopee } from "react-icons/tb";
 
 
@@ -21,8 +20,6 @@ const Menu = ({ isOpen }) => {
             <h1>Toko ecommerce Kami</h1>
                <a href="https://id.shp.ee/6qB9Gqh" target="_blank"rel="noopener noreferrer"><button><TbBrandShopee /><h4>Shopee</h4></button></a>
               <a href="https://tokopedia.link/Y6qFbQj7mKb" target="_blank"rel="noopener noreferrer"> <button><IoBagHandleOutline /><h4>TokoPedia</h4></button></a>
-               <button><MdOutlineLabel /><h4>Lazada</h4></button>
-               <button><AiOutlineAlibaba /><h4>alibaba</h4></button>
             </div>
             <div className="Media"><h1>Kontak/Media Kami</h1>
                <a href="https://wa.me/6281217780249"target="_blank"rel="noopener noreferrer"><button><IoLogoWhatsapp />
