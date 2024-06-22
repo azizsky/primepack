@@ -58,7 +58,7 @@ const Text2 = () => {
       <h1>perhatian!:</h1>
          <h2>Semua fitur ini opsional dan tidak semua bahan bisa menggunakan fitur seperti di atas. Harap menanyakan atau konsultasi dengan kami.</h2>
          </div>
-            <h1 className=" w-full relative text-white text-center m-auto p-2 m-2 font-bold items-center  bg-cyan-950">Informasi Order</h1>
+            <h1 id="infomasiorder" className=" w-full relative text-white text-center m-auto p-2 m-2 font-bold items-center  bg-cyan-950">Informasi Order</h1>
          <div className="image-container">
          <h1>Minimal jumlah Pesanan:</h1>
          <h2>Minimal jumlah pesanan setiap produk memiliki batas minimal yang berbeda. Rata-rata minimal di atas 1000 pcs </h2>
@@ -109,6 +109,7 @@ const Text2 = () => {
          <h1>Skala Produksi:</h1>
          <h2>Kami menerima order dalam jumlah skala kecil maupun besar. Dengan kapasitas produksi hingga 300 ribu pcs per bulan, kami siap memenuhi kebutuhan Anda, baik untuk pesanan dalam jumlah kecil maupun produksi massal.</h2>
          </div>
+         <h1 className=" w-full relative text-white text-center m-auto p-2 m-2 font-bold items-center  bg-cyan-950">Kontak & Media Kami</h1>
       <h1 className=" text-center m-auto image-container font-extrabold ">Terima kasih atas kepercayaan dan kerjasama Anda dengan Asz Team. Kami sangat menghargai dukungan Anda dan berkomitmen untuk terus memberikan layanan dan produk terbaik. Jika Anda memiliki pertanyaan atau membutuhkan informasi lebih lanjut, jangan ragu untuk menghubungi kami. Kami siap membantu Anda.
       </h1>
       <div className="concel">

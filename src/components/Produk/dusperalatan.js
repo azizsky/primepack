@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import './dusmakanan.css';
 
 Modal.setAppElement('#root');
 
-const Dusmakanan = () => {
+const Dusperalatan = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImg, setSelectedImg] = useState('');
   const [selectedPrice, setSelectedPrice] = useState('');
@@ -60,7 +60,7 @@ const Dusmakanan = () => {
 
   return (
     <div className="dusmakanan">
-      <h2 className="animated">Kami hampir bisa membuat semua kemasan buat makanan yang terbuat dari kertas yang tentunya lebih ramah lingkungan dan mudah untuk di daur ulang</h2>
+      <h2 className="animated">Kami hampir bisa membuat dus Kemasan buat semua peralatan mulai dari gadget, part otomotif, Dll</h2>
       <h2 className="animated relative top-8 ">untuk harga di bawah ini relative bisa naik atau turun dan untuk pembelian di atas 10 sampai 20 ribu pcs harga bisa jauh lebih murah</h2>
       {items.map((item, index) => (
         <div
@@ -102,4 +102,4 @@ const Dusmakanan = () => {
   );
 };
 
-export default Dusmakanan;
+export default Dusperalatan;

@@ -6,9 +6,6 @@ import Text2 from"../../texs/texthome2";
 
 
 
-
-
-
 const Home = () => {
   return (
     <div className="homepage ">

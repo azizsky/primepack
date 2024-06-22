@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import './dusmakanan.css';
 
 Modal.setAppElement('#root');
 
-const Dusmakanan = () => {
+const Duscosmetic = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImg, setSelectedImg] = useState('');
   const [selectedPrice, setSelectedPrice] = useState('');
@@ -21,7 +21,7 @@ const Dusmakanan = () => {
     { imgUrl: '/image/content/amplop.jpg', price: 'Rp 70.000' },
     { imgUrl: '/image/content/amplop.jpg', price: 'Rp 70.000' },
     { imgUrl: '/image/content/amplop.jpg', price: 'Rp 70.000' },
-    { imgUrl: '/image/content/amplop.jpg', price: 'Rp 70.000' },
+    { imgUrl: '/image/content/amplop.jpg', price: 'Rp 700.000' },
   ];
 
   useEffect(() => {
@@ -102,4 +102,4 @@ const Dusmakanan = () => {
   );
 };
 
-export default Dusmakanan;
+export default Duscosmetic;
